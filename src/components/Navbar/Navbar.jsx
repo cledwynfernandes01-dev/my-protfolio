@@ -46,9 +46,9 @@ const Navbar = () => {
         {/* Logo */}
         <div className="text-lg font-semibold cursor-pointer">
           <span className="text-[#8245ec]">&lt;</span>
-          <span className="text-white">Suraj</span>
+          <span className="text-white">Cledwyn</span>
           <span className="text-[#8245ec]">/</span>
-          <span className="text-white">Chavan</span>
+          <span className="text-white">Fernandes</span>
           <span className="text-[#8245ec]">&gt;</span>
         </div>
 
@@ -71,21 +71,14 @@ const Navbar = () => {
         {/* Social Icons */}
         <div className="hidden md:flex space-x-4">
           <a
-            href="https://github.com/Surajchavan4124"
+            href="https://github.com/cledwynfernandes01-dev"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
           >
             <FaGithub size={24} />
           </a>
-          <a
-            href="https://www.linkedin.com/in/suraj-chavan-291175228"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#8245ec]"
-          >
-            <FaLinkedin size={24} />
-          </a>
+          
         </div>
 
         {/* Mobile Menu Icon */}
@@ -122,21 +115,14 @@ const Navbar = () => {
             ))}
             <div className="flex space-x-4">
               <a
-                href="https://github.com/codingmastr"
+                href="https://github.com/cledwynfernandes01-dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
               >
                 <FaGithub size={24} />
               </a>
-              <a
-                href="https://www.linkedin.com/in/tarun-kaushik-553b441a4"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
-              >
-                <FaLinkedin size={24} />
-              </a>
+              
             </div>
           </ul>
         </div>

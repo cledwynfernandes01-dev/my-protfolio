@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaXTwitter, FaLinkedin, FaInstagram } from "react-icons/fa6";
+import { FaXTwitter, FaInstagram } from "react-icons/fa6";
 
 const Footer = () => {
   // Smooth scroll function
@@ -38,10 +38,9 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            { icon: <FaFacebook />, link: "https://www.facebook.com/share/17DSNXD3qZ/" },
-            { icon: <FaXTwitter />
-, link: "https://x.com/SurajChavan4124" },
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/suraj-chavan-291175228" },
+            
+            { icon: <FaXTwitter />, link: "https://x.com/SurajChavan4124" },
+            
             { icon: <FaInstagram />, link: "https://www.instagram.com/tech_x_suraj/" },
             
           ].map((item, index) => (
@@ -59,7 +58,7 @@ const Footer = () => {
 
         {/* Copyright Text */}
         <p className="text-sm text-gray-400 mt-6">
-          © 2025 Suraj Chavan. All rights reserved.
+          © 2025 Cledwyn Fernandes. All rights reserved.
         </p>
       </div>
     </footer>
