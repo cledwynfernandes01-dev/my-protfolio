@@ -39,7 +39,7 @@ import rankUpGlobalLogo from './assets/company_logo/rankup_global.webp';
 // Education Section Logo's
 import rccalogo from './assets/education_logo/rcca_logo.webp';
 import rhsslogo from './assets/education_logo/rhss_logo.png';
-import lsvgshslogo from './assets/education_logo/goa_board.ico';
+import lsvgshslogo from './assets/education_logo/perpetual.png';
 
 // Project Section Logo's
 
@@ -58,7 +58,7 @@ export const SkillsInfo = [
       // { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       // { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
+      // { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
@@ -70,8 +70,8 @@ export const SkillsInfo = [
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+      // { name: 'Firebase', logo: firebaseLogo },
+      // { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
   {
@@ -80,7 +80,7 @@ export const SkillsInfo = [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
+      // { name: 'Python', logo: pythonLogo },
       // { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       // { name: 'TypeScript', logo: typescriptLogo },
@@ -92,10 +92,10 @@ export const SkillsInfo = [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
+      // { name: 'Postman', logo: postmanLogo },
+      // { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
+      // { name: 'Netlify', logo: netlifyLogo },
       { name: 'Figma', logo: figmaLogo },
     ],
   },
@@ -107,7 +107,7 @@ export const SkillsInfo = [
       img: rankUpGlobalLogo,
       role: "WordPress Developer Intern",
       company: "RankUp Global",
-      date: "October 2024 - December 2025",
+      date: "June 2025 - July 2025",
       desc: "Developed dynamic websites using the wordpress, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI and optimize application performance in an agile environment.",
       skills: [
         "HTML",
@@ -156,7 +156,7 @@ export const SkillsInfo = [
       img: rccalogo,
       school: "Rosary College of Commerce & Arts, Navelim, Goa",
       date: "July 2023 - Present",
-      grade: "9.35 CGPA",
+      grade: "7.75 CGPA",
       desc: "I am pursuing my Bachelor's degree (BCA) in Computer Applications from Rosary College of Commerce & Arts, Navelim, Goa. During my time at Rosary College, I gained a strong foundation in programming, software development, and computer applications principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, Agile Methodologies, Full Stack Development, UI/UX development, Cloud Computing and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at Rosary College has been instrumental in shaping my technical abilities and professional growth.",
       degree: "Bachelor of Computer Applications BCA",
     },
@@ -165,17 +165,17 @@ export const SkillsInfo = [
       img: rhsslogo,
       school: "Rosary Higher Secondary School, Navelim, Goa",
       date: "June 2021 - Apr 2023",
-      grade: "84.5%",
+      grade: "79.7%",
       desc: "I completed my class 12 education from Rosary Higher Secondary School, Navelim, Goa, under the Goa board, where I studied Accounting, Business Studies, Economics, Mathematics and Information Technology",
       degree: "Commerce",
     },
     {
       id: 2,
       img: lsvgshslogo,
-      school: "Late Shri Vinayak Gopal Shenvi High School, Rawanfond, Navelim, Goa",
-      date: "Jun 2015 - March 2021",
-      grade: "85.5%",
-      desc: "I completed my class 10 education from Late Shri Vinayak Gopal SHenvi High School School, Rawanfond, Navelim, Goa, under the Goa board, where I studied Mathematics, Geography, History and Computer.",
+      school: "Perpetual Succour Convent High School, Navelim, Goa",
+      date: "Jun 2009 - March 2021",
+      grade: "85%",
+      desc: "I completed my class 10 education from Perpetual Succour Convent High School, Navelim, Goa, under the Goa board, where I studied Mathematics, Geography, History and Computer.",
       degree: "Class 10",
     },
     // {
